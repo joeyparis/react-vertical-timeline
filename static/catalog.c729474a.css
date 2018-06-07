@@ -1567,8 +1567,7 @@ striping:
     left: 50%;
     margin-left: -2px;
   }
-}
-.vertical-timeline-element {
+}.vertical-timeline-element {
   position: relative;
   margin: 2em 0;
 }
@@ -1685,6 +1684,11 @@ striping:
   -webkit-box-shadow: 0 3px 0 #ddd;
           box-shadow: 0 3px 0 #ddd;
 }
+.vertical-timeline-element-content.no-children {
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
 .vertical-timeline-element-content:after {
   content: "";
   display: table;
@@ -1729,6 +1733,9 @@ striping:
   width: 0;
   border: 7px solid transparent;
   border-right: 7px solid white;
+}
+.vertical-timeline-element-content.no-children::before {
+  display: none;
 }
 @media only screen and (min-width: 768px) {
   .vertical-timeline-element-content h2 {
@@ -1878,5 +1885,4 @@ striping:
     transform: translateX(0);
   }
 }
-
-/*# sourceMappingURL=catalog.150e9e84.css.map*/
+/*# sourceMappingURL=catalog.c729474a.css.map*/
