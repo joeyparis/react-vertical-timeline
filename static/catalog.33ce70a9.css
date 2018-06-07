@@ -1684,11 +1684,6 @@ striping:
   -webkit-box-shadow: 0 3px 0 #ddd;
           box-shadow: 0 3px 0 #ddd;
 }
-.vertical-timeline-element-content.no-children {
-  background: transparent;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
 .vertical-timeline-element-content:after {
   content: "";
   display: table;
@@ -1733,9 +1728,6 @@ striping:
   width: 0;
   border: 7px solid transparent;
   border-right: 7px solid white;
-}
-.vertical-timeline-element-content.no-children::before {
-  display: none;
 }
 @media only screen and (min-width: 768px) {
   .vertical-timeline-element-content h2 {
@@ -1885,4 +1877,4 @@ striping:
     transform: translateX(0);
   }
 }
-/*# sourceMappingURL=catalog.c729474a.css.map*/
+/*# sourceMappingURL=catalog.33ce70a9.css.map*/

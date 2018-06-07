@@ -1,12 +1,12 @@
 {
-  "catalog.css": "static/catalog.c729474a.css",
-  "catalog.css.map": "static/catalog.c729474a.css.map",
-  "catalog.js": "static/catalog.ce5e7ebf.js",
-  "catalog.js.map": "static/catalog.ce5e7ebf.js.map",
-  "manifest.js": "static/manifest.ca8f0608.js",
-  "manifest.js.map": "static/manifest.ca8f0608.js.map",
-  "static/0.3cc7951c.chunk.js": "static/0.3cc7951c.chunk.js",
-  "static/0.3cc7951c.chunk.js.map": "static/0.3cc7951c.chunk.js.map",
+  "catalog.css": "static/catalog.33ce70a9.css",
+  "catalog.css.map": "static/catalog.33ce70a9.css.map",
+  "catalog.js": "static/catalog.b29dc668.js",
+  "catalog.js.map": "static/catalog.b29dc668.js.map",
+  "manifest.js": "static/manifest.7c930704.js",
+  "manifest.js.map": "static/manifest.7c930704.js.map",
+  "static/0.da86a161.chunk.js": "static/0.da86a161.chunk.js",
+  "static/0.da86a161.chunk.js.map": "static/0.da86a161.chunk.js.map",
   "vendor.js": "static/vendor.d2bc3edb.js",
   "vendor.js.map": "static/vendor.d2bc3edb.js.map"
 }
