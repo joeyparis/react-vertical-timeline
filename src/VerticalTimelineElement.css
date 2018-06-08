@@ -129,6 +129,7 @@
 }
 .vertical-timeline-element-content {
   position: relative;
+  left: 0;
   margin-left: 60px;
   background: white;
   border-radius: 0.25em;
@@ -225,7 +226,7 @@
 
   .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content,
   .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content {
-    float: right;
+    left: 54.75%;
   }
   .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content::before,
   .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content::before {
@@ -245,6 +246,10 @@
 }
 
 /* Box animations */
+.vertical-timeline--animate .vertical-timeline-element-content {
+  transition: left cubic-bezier(.62,.28,.23,.99) 0.2s;
+}
+
 .vertical-timeline--animate .vertical-timeline-element-content.is-hidden {
   visibility: hidden;
 }
